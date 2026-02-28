@@ -1,6 +1,6 @@
 tworzenie bazy dla userów.
 
-http://localhost/Logowanie/index.php
+http://localhost/Logowanie-do-quizu/index.php
 
 CREATE DATABASE loginy;
 CREATE TABLE uzytkownicy (
@@ -13,4 +13,5 @@ CREATE TABLE uzytkownicy (
     data_rejestracji TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     punkty_quizu INT DEFAULT 0,
     max_punkty INT DEFAULT 0
+
 );
